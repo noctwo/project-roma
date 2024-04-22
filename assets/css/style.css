@@ -57,6 +57,7 @@ nav{
     padding-bottom: 10em;
     height: 100vh;
     background-image: url(../img/cleo-topper.jpg);
+    background-position: center;
     overflow-y: scroll;
     overflow-x: hidden;
     display: flex;
@@ -154,7 +155,7 @@ h2{
 
 .family-image{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(../img/kid.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -179,6 +180,14 @@ footer{
     background-color: #000;
     color: #fff;
     text-align: center;
+}
+
+footer p{
+    font-family: "Inter";
+}
+
+footer p a{
+    color:#6BC1A3;
 }
 
 .btn-donate{
