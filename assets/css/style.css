@@ -54,10 +54,27 @@ nav{
 
 .big-hero{
     margin-top: -50px;
+    padding-bottom: 10em;
     height: 100vh;
     background-image: url(../img/cleo-topper.jpg);
     overflow-y: scroll;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15em;
+}
+
+.first-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    margin-top: 10em;
+}
+
+.hero-bullet-point{
+    width: 50vw;
 }
 
 h1, h2, .subheading, .copy{
@@ -124,4 +141,55 @@ h2{
 
 .subheading{
     font-size: 2rem;
+}
+
+.small{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/sea.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.family-image{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/kid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.black{
+    background-color: black;
+    height: 80vh;
+    padding: 5em 0 5em 5em;
+}
+
+.black p{
+    font-size: 4rem;
+    color: #fff;
+    font-family: "Inter";
+    font-weight: bold;
+    width: 30vw;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-donate{
+    padding: 1em 3em;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 3em;
+}
+
+.btn-donate:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 0px #fff;
 }
