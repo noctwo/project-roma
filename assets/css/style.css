@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Dafoe";
+    src: url(../fonts/MrDafoe-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Santio-Bold";
+    src: url(../fonts/Santio\ Bold.ttf);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Inter";
+    padding: 10px 30px;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+}
+
+.cta img{
+    height: 30px;
+    margin: 0 1em;
+}
+
+.cta a{
+    text-decoration: underline;
+    text-decoration-color: #E7BC0E ;
+    text-underline-offset: 10px;
+    color: #fff;
+}
+
+.cta a:hover{
+    text-decoration: underline;
+    color: #E7BC0E;
+}
+
+.big-hero{
+    margin-top: -50px;
+    height: 100vh;
+    background-image: url(../img/cleo-topper.jpg);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1, h2, .subheading, .copy{
+    font-family: "Santio-Bold";
+}
+
+h1{
+    font-size: 5rem;
+    max-width: 15vw;
+    color: #fff;
+}
+
+.scroll-cta{
+    font-family: "Dafoe";
+    color: #E7BC0E;
+    font-size: 2rem;
+}
+
+.scroll-cta:after{
+    content: " v";
+    font-family: "Inter";
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+
+.copy{
+    font-size: 2rem;
+    max-width: 29vw;
+    line-height: 2.5rem;
+}
+
+.copy-top{
+    color: #6BC1A3;
+}
+
+.copy-bottom{
+    color: #7EB8E1;
+}
+
+.txt-hghlght{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.36); 
+}
+
+.bullet-point-icon{
+    width: 15vw;
+}
+
+.yellow{
+    color:#E7BC0E
+}
+
+.pink{
+    color: #CB91B6;
+}
+
+.green{
+    color: #6BC1A3;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+.subheading{
+    font-size: 2rem;
+}
